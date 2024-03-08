@@ -1,6 +1,6 @@
 html, body {
     margin: 0;
-    padding: 0px 1em;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
     background-color: lightskyblue;
     color: #432000;
@@ -72,4 +72,10 @@ ul li {
 ul li:hover {
     background-color: #FFECC7;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 337px){
+    body {
+        padding: 0px 0.5rem;
+    }
 }
